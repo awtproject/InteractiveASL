@@ -5,3 +5,13 @@
 
 ## Technologies used
 For this project we have used the MEAN stack (Mongo DB, ExpressJS, Angular and NodeJS) in addition to Bootstrap css framework.
+
+ ### Mongo DB
+ 
+ ### Express Js
+ 
+ ### Angular
+ 
+ ### Node Js
+ 
+ ### Bootstrap
