@@ -1,4 +1,4 @@
-# Interactive ASL
+﻿# Interactive ASL
 
 Interactive ASL is a web application built with the MEAN stack for learning American Sign Language in an easy and intuitive way. This web application has been developed as a final proyect for the [Lecture Advance Web Technologies](https://www.uni-due.de/soco/teaching/courses/lecture-advwebtech-ss18.php).
 
@@ -91,8 +91,8 @@ The app should be opened on the broswer on http://localhost:4200/.
 
 ## Authors
 
-* **Agustín Gázquez Hurtado** - *work done : Backend development (NodeJS+ExpressJS+ MongoDB), Frontend development ( Navbar , footer, Login page, Register page, Home page, Reset page, About us, Dashboard, Practice and user-service) and Github deployment. * 
-* **Aynaz Khoshkhoo** - *work done : Frontend development (Contact us, Test, Practice, Models, helper service and quiz service), youtube video presentation and and Github deployment.* 
+* **Agustín Gázquez Hurtado** - *work done : Backend development (NodeJS+ExpressJS+ MongoDB), Frontend development ( Navbar , footer, Login page, Register page, Home page, Reset page, About us, Dashboard, Practice and user-service). * 
+* **Aynaz Khoshkhoo** - *work done : Frontend development (Contact us, Test, Practice, Models, helper service and quiz service), youtube video presentation.* 
 * **Anusha Bangaru** - *work done: Frontend development (Dashboard, Learning: number, alphabet and phrases), Heroku deployment and Github deployment. * 
 
 ## Acknowledgments
