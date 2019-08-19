@@ -92,16 +92,8 @@ The app should be opened on the broswer on http://localhost:4200/.
 ## Authors
 
 * **Agustín Gázquez Hurtado** - *work done : Backend development (NodeJS+ExpressJS+ MongoDB), Frontend development ( Navbar , footer, Login page, Register page, Home page, Reset page, About us, Dashboard, Practice and user-service) and Github deployment. * 
-* **Aynaz Khoshkhoo** - *work done : Frontend development (Contact us, Test, Practice, Models, helper service and quiz service), youtube video presentation and and Github deployment..* 
+* **Aynaz Khoshkhoo** - *work done : Frontend development (Contact us, Test, Practice, Models, helper service and quiz service), youtube video presentation and and Github deployment.* 
 * **Anusha Bangaru** - *work done: Frontend development (Dashboard, Learning: number, alphabet and phrases), Heroku deployment and Github deployment. * 
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
