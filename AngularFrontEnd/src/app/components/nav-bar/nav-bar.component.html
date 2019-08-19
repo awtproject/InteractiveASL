@@ -1,57 +1,56 @@
+
+
 <!--Navbar -->
 <nav class="navbar navbar-expand-lg bg-primary sticky-top">
-  <i class="fas fa-american-sign-language-interpreting fa-3x text-white pl-5 pr-3"></i>
-  <a class="navbar-brand text-white text-uppercase" [routerLink]="['/']">Interactive ASL</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
-    aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-    <ul class="navbar-nav mr-auto">
-      
-    </ul>
-    <ul class="navbar-nav ml-auto nav-flex-icons">
-      <li class="nav-item mx-0 mx-lg-1">
+   <i class="fas fa-american-sign-language-interpreting fa-3x text-white pl-5 pr-3"></i>
+   <a class="navbar-brand text-white text-uppercase" [routerLink]="['/']">Interactive ASL</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+      aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+         <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-white" [routerLink]="['/dashboard']" >Dashboard </a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1" >
+         </li>
+         <li class="nav-item mx-0 mx-lg-1" >
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-white " [routerLink]="['/AboutUs']">About</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
+         </li>
+         <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-white" [routerLink]="['/ContactUs']">Contact</a>
-          </li>
-      <li class="nav-item dropdown mx-0 mx-lg-1">
-        <a class="nav-link dropdown-toggle text-white py-3 px-0 px-lg-3" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-user-circle fa-lg"></i>
-        </a>
-        <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" [routerLink]="['/login']">
-            <div class= "row">
-              <div class="col-3">
-                <i class="fas fa-sign-in-alt"></i>
-              </div>
-              <div class="col-auto">
-                <p>Login</p>
-              </div>
+         </li>
+         <li class="nav-item dropdown mx-0 mx-lg-1">
+            <a class="nav-link dropdown-toggle text-white py-3 px-0 px-lg-3" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user-circle fa-lg"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+               <a class="dropdown-item" [routerLink]="['/login']">
+                  <div class= "row">
+                     <div class="col-3">
+                        <i class="fas fa-sign-in-alt"></i>
+                     </div>
+                     <div class="col-auto">
+                        <p>Login</p>
+                     </div>
+                  </div>
+               </a>
+               <a class="dropdown-item" [routerLink]="['/register']">
+                  <div class= "row">
+                     <div class="col-3">
+                        <i class="fas fa-user-plus"></i>
+                     </div>
+                     <div class="col-auto">
+                        <p>Register</p>
+                     </div>
+                  </div>
+               </a>
             </div>
-          </a>
-          <a class="dropdown-item" [routerLink]="['/register']">
-            <div class= "row">
-              <div class="col-3">
-                <i class="fas fa-user-plus"></i>
-              </div>
-              <div class="col-auto">
-                <p>Register</p>
-              </div>
-            </div>
-          </a>
-          
-        </div>
-      </li>
-    </ul>
-  </div>
+         </li>
+      </ul>
+   </div>
 </nav>
 <!--/.Navbar -->
-
 

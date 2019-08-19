@@ -7,19 +7,9 @@ var sendJSONresponse = function(res, status, content) {
   res.json(content);
 };
 
-module.exports.hello = function(req, res) {
-res.sendJSONresponse ("hola");
-console.log('conectado');
-};
 
 module.exports.register = function(req, res) {
 
-  // if(!req.body.name || !req.body.email || !req.body.password) {
-  //   sendJSONresponse(res, 400, {
-  //     "message": "All fields required"
-  //   });
-  //   return;
-  // }
 
   var user = new User();
 
@@ -41,12 +31,6 @@ module.exports.register = function(req, res) {
 
 module.exports.login = function(req, res) {
 
-  // if(!req.body.email || !req.body.password) {
-  //   sendJSONresponse(res, 400, {
-  //     "message": "All fields required"
-  //   });
-  //   return;
-  // }
 
   passport.authenticate('local', function(err, user, info){
     var token;

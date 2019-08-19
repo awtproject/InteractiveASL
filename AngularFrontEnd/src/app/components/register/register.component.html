@@ -1,54 +1,55 @@
+
+
 <br>
-
 <div class="container mt-5 mb-5">
-  <div class="row justify-content-md-center">
-    <div class="col col-lg-5 mb-2">
-            <div class="card">
-                <div class="card-body text-center">
-                    <div class="mb-1">
-                        <i class="fas fa-user-plus fa-lg"></i>
-                    </div>
-                    <h3 class="mb-4">Register</h3>
-                    <form #signUpForm="ngForm" (ngSubmit)="signUpForm.valid && onSubmit(signUpForm)">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" #fullName="ngModel" [(ngModel)]="userService.selectedUser.fullName" name="fullName" placeholder="Full Name"
-  required  [ngClass]="{'invalid-textbox' :signUpForm.submitted && !fullName.valid }">
-                        <div *ngIf="signUpForm.submitted && !fullName.valid">
-    <label class="validation-message">This field is required.</label>
-  </div>
-                        </div>
-                        <div class="input-group mb-3">
-                            <input type="email" class="form-control" #email="ngModel" [(ngModel)]="userService.selectedUser.email" name="email" placeholder="Email"
-  required [pattern]="emailRegex"  [ngClass]="{'invalid-textbox' :signUpForm.submitted && !email.valid }">
-                        <div *ngIf="signUpForm.submitted && email.errors">
-    <label *ngIf="email.errors.required" class="validation-message"> This field is required.</label>
-    <label *ngIf="email.errors.pattern" class="validation-message"> Invalid email address.</label>
-  </div>
-                        </div>
-                        <div class="input-group mb-4">
-                            <input type="password" class="form-control" #password="ngModel" [(ngModel)]="userService.selectedUser.password" name="password" placeholder="Password"
-  minlength="4" required [ngClass]="{'invalid-textbox' :signUpForm.submitted && !password.valid }">
-                        <div *ngIf="signUpForm.submitted && password.errors">
-    <label *ngIf="password.errors.required" class="validation-message"> This field is required.</label>
-    <label *ngIf="password.errors.minlength" class="validation-message"> Enter at least 4 characters.</label>
-  </div>
-                        </div>
-                        <div class="custom-control custom-checkbox mb-4 text-left">
-                          <input type="checkbox" class="custom-control-input" id="customCheck1">
-                          <label class="custom-control-label" for="customCheck1">I have read and agree with the privacy policy.</label>
-                        </div>
-                        <div class="input-group  align-items-center justify-content-center mb-4">
-                        <button type="submit" class="btn btn-primary" value="Sign In">Register</button>
-                    </div>
-                    </form>
-                    <p class="mb-0 text-muted">Allready have an account? <a [routerLink]="['/login']"> Log in</a></p>
-                </div>
+   <div class="row justify-content-md-center">
+      <div class="col col-lg-5 mb-2">
+         <div class="card">
+            <div class="card-body text-center">
+               <div class="mb-1">
+                  <i class="fas fa-user-plus fa-lg"></i>
+               </div>
+               <h3 class="mb-4">Register</h3>
+               <form #signUpForm="ngForm" (ngSubmit)="signUpForm.valid && onSubmit(signUpForm)">
+               <div class="input-group mb-3">
+                  <input type="text" class="form-control" #fullName="ngModel" [(ngModel)]="userService.selectedUser.fullName" name="fullName" placeholder="Full Name"
+                  required  [ngClass]="{'invalid-textbox' :signUpForm.submitted && !fullName.valid }">
+                  <div *ngIf="signUpForm.submitted && !fullName.valid">
+                     <label class="validation-message">This field is required.</label>
+                  </div>
+               </div>
+               <div class="input-group mb-3">
+                  <input type="email" class="form-control" #email="ngModel" [(ngModel)]="userService.selectedUser.email" name="email" placeholder="Email"
+                  required [pattern]="emailRegex"  [ngClass]="{'invalid-textbox' :signUpForm.submitted && !email.valid }">
+                  <div *ngIf="signUpForm.submitted && email.errors">
+                     <label *ngIf="email.errors.required" class="validation-message"> This field is required.</label>
+                     <label *ngIf="email.errors.pattern" class="validation-message"> Invalid email address.</label>
+                  </div>
+               </div>
+               <div class="input-group mb-4">
+                  <input type="password" class="form-control" #password="ngModel" [(ngModel)]="userService.selectedUser.password" name="password" placeholder="Password"
+                  minlength="4" required [ngClass]="{'invalid-textbox' :signUpForm.submitted && !password.valid }">
+                  <div *ngIf="signUpForm.submitted && password.errors">
+                     <label *ngIf="password.errors.required" class="validation-message"> This field is required.</label>
+                     <label *ngIf="password.errors.minlength" class="validation-message"> Enter at least 4 characters.</label>
+                  </div>
+               </div>
+               <div class="custom-control custom-checkbox mb-4 text-left">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">I have read and agree with the privacy policy.</label>
+               </div>
+               <div class="input-group  align-items-center justify-content-center mb-4">
+                  <button type="submit" class="btn btn-primary" value="Sign In">Register</button>
+               </div>
+               </form>
+               <p class="mb-0 text-muted">Allready have an account? <a [routerLink]="['/login']"> Log in</a></p>
             </div>
-    </div>
-  </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Error message -->
+<div class="alert" *ngIf="serverErrorMessages">
+   {{serverErrorMessages}}
 </div>
 
-  <!-- Error message -->
-<div class="alert" *ngIf="serverErrorMessages">
-    {{serverErrorMessages}}
-</div>
