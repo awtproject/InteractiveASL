@@ -39,44 +39,61 @@ Follow these instructions if you want to get a copy of the project  and run it o
 
 If you want to run the project locally you will need to install the following software:
 
-* Node.js and npm
-* The Angular CLI
-* MongoDB 
-
-
+* Node.js and npm - Details on installing Node.js on different operating systems using package managers can be found on the [website](https://nodejs.org/en/download/package-manager/#windows).
+* MongoDB - Details  on  installing  MongoDB  on  macOS  and  Linux  can  be  found  on  the  [official  MongoDB  website](https://docs.mongodb.com/manual/administration/install-community/).
+* The Angular CLI - The Angular CLI can be installed globally with the following command:
 
 ```
-Give examples
+npm install -g@angular/cli
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+1. Clone or download the project as compressed file and then extract the zip file.
+2. Open a terminal in the folder containing “app.js” file and execute the following command:
 
 ```
-until finished
+npm install 
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+3. Move to the AngularFrontEnd folder and again execute the command:
+
+```
+npm install 
+```
+If there are some errors then execute the following commands:
+
+```
+npm audit fix
+```
+```
+npm audit dedupe
+```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Once the installation is properly done the steps for runnig the app locally are the following:
+
+1. On the 'root folder' open a comand window and run the following command:
+
+```
+npm start
+```
+
+2. On the AngularFrontEnd folder run the command.
+
+```
+ng serve -o
+```
+
+The app should be opened on the broswer on http://localhost:4200/.
 
 
 ## Authors
 
-* **Agustín Gázquez Hurtado** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Aynaz Khoshkhoo** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Anusha Bangaru** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Agustín Gázquez Hurtado** - *work done : Backend development (NodeJS+ExpressJS+ MongoDB), Frontend development ( Navbar , footer, Login page, Register page, Home page, Reset page, About us, Dashboard, Practice and user-service) and Github deployment. * 
+* **Aynaz Khoshkhoo** - *work done : Frontend development (Contact us, Test, Practice, Models, helper service and quiz service), youtube video presentation and and Github deployment..* 
+* **Anusha Bangaru** - *work done: Frontend development (Dashboard, Learning: number, alphabet and phrases), Heroku deployment and Github deployment. * 
 
 ## Contributing
 
@@ -90,4 +107,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Special Thanks to Prof. Dr. Chatti and Dr. Muslim to support us during this class project.
 * ASL Numbers and Sign Language Alphabet collection by [Stephanie Leeson](https://thenounproject.com/DesignPirate/) has been used on the proyect.
-* 
