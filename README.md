@@ -98,4 +98,4 @@ The app should be opened on the broswer on http://localhost:4200/.
 ## Acknowledgments
 
 * Special Thanks to Prof. Dr. Chatti and Dr. Muslim to support us during this class project.
-* ASL Numbers and Sign Language Alphabet collection by [Stephanie Leeson](https://thenounproject.com/DesignPirate/) has been used on the proyect.
+* ASL Numbers and Sign Language Alphabet collection by [Stephanie Leeson](https://thenounproject.com/DesignPirate/) has been used on the project.
