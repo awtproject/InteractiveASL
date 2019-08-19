@@ -1,6 +1,6 @@
 # Interactive ASL
 
-Interactive ASL is a web application built with the MEAN stack for learning American Sign Language in a easy and intuitive way. This web application has been developed as a final proyect for the [Lecture Advance Web Technologies](https://www.uni-due.de/soco/teaching/courses/lecture-advwebtech-ss18.php).
+Interactive ASL is a web application built with the MEAN stack for learning American Sign Language in an easy and intuitive way. This web application has been developed as a final proyect for the [Lecture Advance Web Technologies](https://www.uni-due.de/soco/teaching/courses/lecture-advwebtech-ss18.php).
 
 ## Features and Overview
 
@@ -72,7 +72,7 @@ npm audit dedupe
 
 ## Deployment
 
-Once the installation is properly done the steps for runnig the app locally are the following:
+Once the installation is properly done the steps for running the app locally are the following:
 
 1. On the 'root folder' open a comand window and run the following command:
 
